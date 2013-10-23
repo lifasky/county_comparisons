@@ -1,0 +1,547 @@
+<!doctype html>
+<html>
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="http://www.partnersforourchildren.org/misc/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+  <title>User account | Partners for Our Children</title>
+  <style type="text/css" media="all">@import url("http://www.partnersforourchildren.org/modules/system/system.base.css?mradwh");
+@import url("http://www.partnersforourchildren.org/modules/system/system.menus.css?mradwh");
+@import url("http://www.partnersforourchildren.org/modules/system/system.messages.css?mradwh");
+@import url("http://www.partnersforourchildren.org/modules/system/system.theme.css?mradwh");</style>
+<style type="text/css" media="all">@import url("http://www.partnersforourchildren.org/modules/comment/comment.css?mradwh");
+@import url("http://www.partnersforourchildren.org/profiles/openenterprise/modules/date/date_api/date.css?mradwh");
+@import url("http://www.partnersforourchildren.org/profiles/openenterprise/modules/date/date_popup/themes/datepicker.1.7.css?mradwh");
+@import url("http://www.partnersforourchildren.org/modules/field/theme/field.css?mradwh");
+@import url("http://www.partnersforourchildren.org/modules/node/node.css?mradwh");
+@import url("http://www.partnersforourchildren.org/modules/search/search.css?mradwh");
+@import url("http://www.partnersforourchildren.org/modules/user/user.css?mradwh");
+@import url("http://www.partnersforourchildren.org/profiles/openenterprise/modules/views/css/views.css?mradwh");
+@import url("http://www.partnersforourchildren.org/profiles/openenterprise/wysiwyg_align.css?mradwh");</style>
+<style type="text/css" media="all">@import url("http://www.partnersforourchildren.org/sites/all/modules/colorbox/styles/default/colorbox_default_style.css?mradwh");
+@import url("http://www.partnersforourchildren.org/profiles/openenterprise/modules/ctools/css/ctools.css?mradwh");
+@import url("http://www.partnersforourchildren.org/sites/all/modules/lexicon/css/lexicon.css?mradwh");
+@import url("http://www.partnersforourchildren.org/profiles/openenterprise/modules/panels/css/panels.css?mradwh");</style>
+<style type="text/css" media="all">@import url("http://www.partnersforourchildren.org/sites/all/themes/genesis/genesis/css/layout.css?mradwh");
+@import url("http://www.partnersforourchildren.org/sites/all/themes/genesis/genesis/css/admin-styles.css?mradwh");
+@import url("http://www.partnersforourchildren.org/sites/all/themes/genesis_poc/css/gpanels/gpanels-fluid.css?mradwh");
+@import url("http://www.partnersforourchildren.org/sites/all/themes/genesis_poc/css/html-elements.css?mradwh");
+@import url("http://www.partnersforourchildren.org/sites/all/themes/genesis_poc/css/page.css?mradwh");
+@import url("http://www.partnersforourchildren.org/sites/all/themes/genesis_poc/css/fields.css?mradwh");
+@import url("http://www.partnersforourchildren.org/sites/all/themes/genesis_poc/css/nodes.css?mradwh");
+@import url("http://www.partnersforourchildren.org/sites/all/themes/genesis_poc/css/blocks.css?mradwh");
+@import url("http://www.partnersforourchildren.org/sites/all/themes/genesis_poc/css/comments.css?mradwh");
+@import url("http://www.partnersforourchildren.org/sites/all/themes/genesis_poc/css/navigation.css?mradwh");
+@import url("http://www.partnersforourchildren.org/sites/all/themes/genesis_poc/css/views-styles.css?mradwh");
+@import url("http://www.partnersforourchildren.org/sites/all/themes/genesis_poc/css/custom.css?mradwh");</style>
+<style type="text/css" media="all">@import url("http://www.partnersforourchildren.org/sites/all/themes/genesis_poc/css/subpage.css?mradwh");</style>
+<link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Arvo:700,regular&amp;subset=latin" media="all" />
+  <script type="text/javascript" src="http://www.partnersforourchildren.org/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://www.partnersforourchildren.org/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://www.partnersforourchildren.org/misc/drupal.js?mradwh"></script>
+<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=xa-4f340bd0523ce783"></script>
+<script type="text/javascript" src="http://www.partnersforourchildren.org/sites/all/themes/genesis_poc/js/jquery.stickyfloat.min.js?mradwh"></script>
+<script type="text/javascript" src="http://www.partnersforourchildren.org/sites/all/libraries/colorbox/colorbox/jquery.colorbox-min.js?mradwh"></script>
+<script type="text/javascript" src="http://www.partnersforourchildren.org/sites/all/modules/colorbox/js/colorbox.js?mradwh"></script>
+<script type="text/javascript" src="http://www.partnersforourchildren.org/sites/all/modules/colorbox/styles/default/colorbox_default_style.js?mradwh"></script>
+<script type="text/javascript" src="http://www.partnersforourchildren.org/sites/all/modules/colorbox/js/colorbox_load.js?mradwh"></script>
+<script type="text/javascript" src="http://www.partnersforourchildren.org/profiles/openenterprise/modules/panels/js/panels.js?mradwh"></script>
+<script type="text/javascript" src="http://www.partnersforourchildren.org/sites/all/modules/google_analytics/googleanalytics.js?mradwh"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-32956306-1"]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://www.partnersforourchildren.org/sites/all/themes/genesis_poc/js/subpage.js?mradwh"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"genesis_poc","theme_token":"FrZUkjZrOodBcSnrRqcbeFFJNxdsXLAL6nH14jsdGN4","css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"profiles\/openenterprise\/modules\/date\/date_api\/date.css":1,"profiles\/openenterprise\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"profiles\/openenterprise\/modules\/views\/css\/views.css":1,"profiles\/openenterprise\/wysiwyg_align.css":1,"sites\/all\/modules\/colorbox\/styles\/default\/colorbox_default_style.css":1,"profiles\/openenterprise\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/lexicon\/css\/lexicon.css":1,"profiles\/openenterprise\/modules\/panels\/css\/panels.css":1,"sites\/all\/themes\/genesis\/genesis\/css\/layout.css":1,"sites\/all\/themes\/genesis\/genesis\/css\/admin-styles.css":1,"sites\/all\/themes\/genesis_poc\/css\/gpanels\/gpanels-fluid.css":1,"sites\/all\/themes\/genesis_poc\/css\/html-elements.css":1,"sites\/all\/themes\/genesis_poc\/css\/page.css":1,"sites\/all\/themes\/genesis_poc\/css\/fields.css":1,"sites\/all\/themes\/genesis_poc\/css\/nodes.css":1,"sites\/all\/themes\/genesis_poc\/css\/blocks.css":1,"sites\/all\/themes\/genesis_poc\/css\/comments.css":1,"sites\/all\/themes\/genesis_poc\/css\/navigation.css":1,"sites\/all\/themes\/genesis_poc\/css\/views-styles.css":1,"sites\/all\/themes\/genesis_poc\/css\/custom.css":1,"sites\/all\/themes\/genesis_poc\/css\/subpage.css":1,"http:\/\/fonts.googleapis.com\/css?family=Arvo:700,regular\u0026subset=latin":1},"js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"http:\/\/s7.addthis.com\/js\/250\/addthis_widget.js#pubid=xa-4f340bd0523ce783":1,"sites\/all\/themes\/genesis_poc\/js\/jquery.stickyfloat.min.js":1,"sites\/all\/libraries\/colorbox\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/colorbox\/styles\/default\/colorbox_default_style.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox_load.js":1,"profiles\/openenterprise\/modules\/panels\/js\/panels.js":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"0":1,"sites\/all\/themes\/genesis_poc\/js\/subpage.js":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"100%","maxHeight":"100%","fixed":true,"__drupal_alter_by_ref":["default"]},"jcarousel":{"ajaxPath":"\/jcarousel\/ajax\/views"},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip"}});/libraries\/colorbox\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/colorbox\/styles\/default\/colorbox_default_style.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox_load.js":1,"profiles\/openenterprise\/modules\/panels\/js\/panels.js":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"0":1,"sites\/all\/themes\/genesis_poc\/js\/subpage.js":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"100%","maxHeight":"100%","fixed":true,"__drupal_alter_by_ref":["default"]},"jcarousel":{"ajaxPath":"\/jcarousel\/ajax\/views"},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip"}});
+//--><!]]>
+</script>
+<style type="text/css" media="all">
+body {
+  background-image:url("poc-bg.png");
+}
+</style>
+</head>
+<body id="genesis-2c" style="background-image:url('poc-bg.png');" >
+
+      <div id="skip-link">
+      <a href="#main-content">Skip to main content</a>
+    </div>
+  
+    <div id="container" class="html not-front not-logged-in one-sidebar sidebar-second page-user section-user">
+      
+    
+    
+  
+  <div id="columns" class="clear clearfix">
+    <div id="content-column">
+      <div class="content-inner">
+        <div id="header-wrapper">
+
+        
+          <div id="header" class="clearfix">
+
+                          <div id="branding">
+
+                                                      <div class="logo-site-name"><strong>
+                      <span id="logo"><a href="/" title="Home page" rel="home">
+                      <img src="http://pocreview.spiders.net/sites/all/themes/genesis_poc/images/poc-logo.png" alt="Partners for Our Children logo" /></a></span>                    </strong></div>
+                                  
+             
+              </div> <!-- /branding -->
+                 <div id="header-blocks">
+                            <div class="region region-header">
+                            <div id="block-search-form" class="block block-search block-odd block-header block-count-1">
+                            <div class="block-inner">
+                            <div class="content">
+                            <form action="/" method="post" id="search-block-form" accept-charset="UTF-8">
+                            <div>
+                            <div class="container-inline">
+                            <h2 class="element-invisible">Search form</h2>
+                            <div class="form-item form-type-textfield form-item-search-block-form">
+                            <label class="element-invisible" for="edit-search-block-form--2">Search</label>
+                            <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text"/>
+                            </div>
+                            <div class="form-actions form-wrapper" id="edit-actions--2">
+                            <input type="submit" id="edit-submit--2" name="op" value="Search" class="form-submit"/>
+                            </div>
+                            <input type="hidden" name="form_build_id" value="form--ylS9peCiSljV9Yi_LgXOcgnuVUpcCGrRosJfGEt-XQ"/>
+                            <input type="hidden" name="form_id" value="search_block_form"/>
+                            </div>
+                            </div>
+                            </form>
+                            </div>
+                            </div>
+                            </div>
+                            </div>
+                            <div class="addthis_toolbox addthis_default_style ">
+                            <a class="addthis_button_linkedin at300b" href="http://www.addthis.com/bookmark.php?v=300&winname=addthis&pub=xa-4f340bd0523ce783&source=tbx-300&lng=en-US&s=linkedin&url=http%3A%2F%2Fwww.partnersforourchildren.org%2F&title=Partners%20for%20Our%20Children&ate=AT-xa-4f340bd0523ce783/-/-/526701af2a9ca212/2&frommenu=1&uid=526701af5ce5f8bc&ct=1&tt=0&captcha_provider=nucaptcha" target="_blank" title="LinkedIn">
+                            <span class="at16nc at300bs at15nc at15t_linkedin at16t_linkedin">
+                            <span class="at_a11y">Share on linkedin</span>
+                            </span>
+                            </a>
+                            <a target="_blank" href="https://www.facebook.com/PartnersForOurChildrenUniversityOfWashington">
+                            <img onmouseover="this.src='/sites/all/themes/genesis_poc/images/facebook-mouseover.png'" onmouseout="this.src='/sites/all/themes/genesis_poc/images/facebook.png'" src="/sites/all/themes/genesis_poc/images/facebook.png"/>
+                            </a>
+                            <a target="_blank" href="https://twitter.com/POCtweets">
+                            <img onmouseover="this.src='/sites/all/themes/genesis_poc/images/twitter-mouseover.png'" onmouseout="this.src='/sites/all/themes/genesis_poc/images/twitter.png'" src="/sites/all/themes/genesis_poc/images/twitter.png"/>
+                            </a>
+                            <div class="atclear"/>
+                            </div>
+                            </div>
+                            </div>   <!--head-blocks -->
+              </div> <!-- /header -->
+                      <div id="main-menu-wrapper" class="clearfix">
+              <div class="main-menu-inner"><h2>Main menu</h2><ul id="main-menu" class="links clearfix"><li class="menu-622 first"><a href="/research-practice" title="">Research &amp; Practice</a></li>
+<li class="menu-632"><a href="/policy" title="">Policy</a></li>
+<li class="menu-637"><a href="/data-portal" title="">Data Portal</a></li>
+<li class="menu-642"><a href="/about-us" title="">About Us</a></li>
+<li class="menu-1527 last"><a href="/publications">Publications</a>
+</li>
+</ul></div>
+            </div>
+        </div>
+        <div style="width: 1060px; background: #ffffff; margin-left:17px;">
+<!----- START content ------------------>
+
+    <!-- Add jQuery library -->
+    <script type="text/javascript" src="fancyBox/jquery-latest.min.js"></script>
+
+	<!-- Add fancyBox -->
+	<script type="text/javascript" src="fancyBox/jquery.fancybox.pack.js"></script>
+	<link rel="stylesheet" type="text/css" href="fancyBox/jquery.fancybox.css" media="screen">
+	<script type="text/javascript" src="fancyBox/jquery.fancybox-media.js"></script>
+	<script type="text/javascript" src="fancyBox/prettify.js"></script>
+    <link rel="stylesheet" href="style.css" type="text/css" charset="utf-8">
+
+     <div id="header" style="padding: 20px 20px 0px 20px;">
+     <h2 style="display:inline;">County Comparisons: Out-of-Home Care</h2>
+ 
+     <br />
+     <br />
+    <p>This data visualization - a parallel coordinates plot - tells the story about out-of-home care in Washington State using a variety of factors. </p>
+
+   </div>
+   <div id="charts"></div> 
+   
+   <div id="grid_header"></div>
+   <div id="county_list" style="overflow: scroll; width:1060px; height:280px;">
+      <div id="lists"></div>
+   </div>
+   <div style="padding: 5px 20px 0px 20px;">
+   <br />
+    <strong>Data</strong>
+    <p>Population and poverty data is from the <a href="http://quickfacts.census.gov/qfd/states/53000.html">US Census Bureau</a>. Child welfare data is extracted from FamLink by Children's Administration and provided to Partners for Our Children. This particular data was extracted on May 5, 2013.
+    The data shown above includes all entries into out-of-home care between 2009 and 2011.</p>
+    <strong>Credits &amp; License</strong>
+    <p>Adapted from examples by Mike Bostock and Kai Chang. All rights reserved. Released under the BSD License.</p>
+   </div>
+  
+    <script type="text/javascript" src="d3.js"></script>
+    <script type="text/javascript" src="par_coord_group.js"></script>
+    <script type="text/javascript" src="par_coord_table.js"></script>
+    <script type="text/javascript" src="poc_color.js"></script>
+    <script type="text/javascript" src="grid.js"></script>
+    <script type="text/javascript" src="parallel.js"></script>
+    <script type="text/javascript" src="underscore.js"></script> 
+ 
+    <script type="text/javascript">
+ 
+ //API: start
+   var dataset = counties; // data resource
+   var color_set = color2; // color of the lines and legends
+   var county_group = county_group; // group of county
+   var Fstr = Fstr; // fist line of text on axis 
+   var Sstr = Sstr; // second line of text on axis
+   var fullname = fullname; // use for classes
+   var fullname_class = fullname_class; // class of each column
+   var fullname_head = fullname_head; //  text of each header in grid 
+   var fullname_title = fullname_title; // title(show_box) of each header in grid
+ //API: end
+ 
+    var update_data = dataset;
+    var colors = new Array();
+    var filter;
+    var grid;
+    var line_highlighted = null;
+    var checkbox_highlighted = null;
+    var group_buttion_point = 0;
+    var even = "#eee", 
+        odd = "white",
+        mouse_over = "#ddd",
+        mouse_over_checked = "#ccc"
+        checked = "#D0DCEB";
+ 
+        for (var i=0,len=county_group.length;i<len;i++)
+        {
+             var g = county_group[i]["groupName"];
+             colors[g]= color_set[i];
+        }
+        
+    var m = [10, 110, 60, 110, 40], //[top,left,right,bottom,legend-hight]
+        w = 1060 - m[1] - m[3],
+        h = 500 - m[0] - m[2] - m[4]; //axis rang [0, h] 
+    
+    var x = d3.scale.ordinal().domain(fullname).rangePoints([0, w]),
+        y = {};
+    
+    var line = d3.svg.line().interpolate('cardinal').tension(0.85),
+        axis = d3.svg.axis().orient("left"),
+        legend,
+        foreground;  
+              
+    var svg = d3.select("#charts").append("svg:svg")
+        .attr("width", w + m[1] + m[3])
+        .attr("height", h + m[0] + m[2] + m[4])
+      .append("svg:g")
+        .attr("transform", "translate(" + m[3] + "," + m[0] + ")");
+        
+    var g_legend = svg.append("svg:g")
+        .attr("class","g_legend")
+        .attr("transform", "translate(-89,0)");
+                
+    var g_parallel = svg.append("svg:g")
+        .attr("class","g_parallel")
+        .attr("transform", "translate(0,"+85+")");
+    
+    // Add a legend.        
+      legend = g_legend.selectAll("g.legend")
+          .data(county_group)
+        .enter().append("svg:g")
+          .attr("name","unchecked")
+          .attr("class","gourp_button")
+          .attr("id",function(d){
+             return "gourp_button_"+d.groupCode;
+          })
+          .attr("transform", function(d, i) { return "translate(" + (i * 120) + ",0)"; })
+          .on("mouseover",function(){
+                if(d3.select(this).attr("name")=="unchecked"){
+                    d3.select(this).select("rect").style("stroke-width",3);
+                    }
+          })
+          .on("mouseout",function(){
+                if(d3.select(this).attr("name")=="unchecked"){
+                    d3.select(this).select("rect").style("stroke-width",.7);
+                    }
+          })
+          .on("click",function(d){
+            if(d3.select(this).attr("name")=="unchecked"){
+                d3.select(this).select("rect").style("stroke-width",3);
+                d3.select(this).attr("name","checked");              
+                d3.selectAll("." + d.groupCode).attr("stroke-opacity",1).attr("name",function(){
+                    if(d3.select(this).attr("name")=="unchecked"){  
+                        return "checked";                     
+                    }else{
+                        return "unchecked";    
+                    }
+                });
+                if(d3.select(this).attr("id") == "gourp_button_washington"){
+                    d3.select(".grid_washington").attr("name","checked").style("background",checked);                         
+                }   
+            }else{
+                d3.select(this).select("rect").style("stroke-width",.7);
+                d3.select(this).attr("name","unchecked");
+                d3.selectAll("." + d.groupCode).attr("name","unchecked").attr("stroke-opacity",0.01);
+                if(d3.select(this).attr("id") == "gourp_button_washington"){
+                    if(d3.select(".grid_washington").attr("class") == "list even grid_washington"){
+                        d3.select(".grid_washington").attr("name","checked").style("background",even);   
+                    }else{
+                        d3.select(".grid_washington").attr("name","checked").style("background",odd);   
+                    }                        
+                } 
+            }
+          });
+    
+      legend.append("svg:rect")
+          .attr("width",115)
+          .attr("height",16)
+          .attr("style", function(d, i) {
+                return "stroke:" + colors[county_group[i]["groupName"]] + "; fill:none;";
+              });
+    
+      legend.append("svg:text")
+          .attr("x", 15)
+          .attr("y",4)
+          .attr("dy", ".7em")
+          .attr("transform", "translate(-1,0)")
+          .text(function(d) { return d.groupName; })
+          ;
+       
+       d3.select("#gourp_button_washington").select("text")
+            .attr("transform", "translate(10,0)");
+          
+       d3.select(".g_legend").append("svg:rect")
+          .attr("transform", "translate(840,0)")
+          .attr("width",115)
+          .attr("height",16)
+          .style("fill","#FF8585")
+          .style("stroke","#FF8585")
+          .on("mouseover",function(){
+                d3.select(this).style("stroke-width","3");
+          })
+          .on("mouseout",function(){
+                d3.select(this).style("stroke-width","0.01");
+          })
+          .on("click",resetAll);
+          //.style("fill","#FFD1D1");
+          
+       d3.select(".g_legend").append("svg:text")
+            .attr("class","reset")
+            //.style("fill","#3b6e8f")
+            .style("fill","white")
+            .attr("transform", "translate(885,12)")
+            .text("Reset")
+            .on("click",resetAll);   
+ 
+    countyParallel(dataset); 
+    countyList(dataset);  
+    default_setting();    
+ 
+    // Returns the path for a given data point.
+    function path(d) {
+      return line(fullname.map(function(p) { return [x(p), y[p](d[p])]; }));
+    }
+
+
+    
+    // Handles a brush event, toggling the display of foreground lines.
+    function brush() {
+      var actives = fullname.filter(function(p) { return !y[p].brush.empty(); }),
+          extents = actives.map(function(p) { return y[p].brush.extent(); });
+ 
+       // To be factored
+        var filter = {};
+        _(actives).each(function(key, i) {
+          filter[key] = {
+            min: extents[i][0],
+            max: extents[i][1]
+          }
+        });
+       
+        foreground.classed("fade", function(d) {          //ps: classed(name,filter), add class to the data set
+          return !actives.every(function(p, i) {
+            return extents[i][0] <= d[p] && d[p] <= extents[i][1];
+    });
+  });
+  
+     update_data = dataset.filter(function(d) {          
+          return actives.every(function(p, i) {
+            return (extents[i][0]) <= d[p] && d[p] <=(extents[i][1]);
+    });
+  });
+   line_checkbox_highlight(update_data);
+   countyList(update_data);
+   reset();
+}   
+    // highlighted lines for multiple-choosing rows
+    function line_checkbox_highlight(data){
+        d3.select(".c_highlight").remove();
+      highlight = g_parallel.append("svg:g")
+          .attr("class", "c_highlight")
+        .selectAll("path")
+          .data(data)
+        .enter().append("svg:path")
+          .attr("d", path)
+          .attr("stroke-opacity",0.01)
+          .attr("name","unchecked")
+          //.attr("display","none") 
+          //.attr("class", "l_checkbox")
+          .attr("class",function(d){
+             for (var i=0,len=county_group.length;i<len;i++){
+                 if(county_group[i]["groupName"]==d.region){
+                    return "l_checkbox " + county_group[i]["groupCode"];
+                 }
+            }    
+          })
+          .attr("id",function(d, i){return "l_checkbox_"+i;})
+          .attr("style", function(d) {
+                return "stroke:" + colors[d.region] + ";";
+              })
+          .on("mouseover",function(){
+                d3.select(this).attr("stroke-opacity",1);
+          })
+          .on("mouseout",function(){
+                if(d3.select(this).attr("name")=="unchecked"){
+                    d3.select(this).attr("stroke-opacity",0.01);
+                }
+          })
+          .on("click",function(){
+                if(d3.select(this).attr("name")=="unchecked"){
+                    if(d3.select(this).attr("class")=="l_checkbox washington"){
+                        d3.select("#gourp_button_washington").attr("name","checked").select("rect").style("stroke-width",3);
+                    }
+                    d3.select(this).attr("name","checked").attr("stroke-opacity",1);
+                    if(d3.select(this).attr("class") == "l_checkbox washington"){
+                        d3.select(".grid_washington").attr("name","checked").style("background",checked);                         
+                    }
+                }else{
+                    if(d3.select(this).attr("class")=="l_checkbox washington"){
+                        d3.select("#gourp_button_washington").attr("name","unchecked").select("rect").style("stroke-width",1);
+                    }
+                    d3.select(this).attr("name","unchecked").attr("stroke-opacity",0.01);   
+                    if(d3.select(this).attr("class") == "l_checkbox washington"){
+                        if(d3.select(".grid_washington").attr("class") == "list even grid_washington"){
+                            d3.select(".grid_washington").attr("name","checked").style("background",even);   
+                        }else{
+                            d3.select(".grid_washington").attr("name","checked").style("background",odd);   
+                    }                         
+                    } 
+                    }
+          });
+    }  
+      
+    // add highlighted line when mouse over a row
+     function line_highlight(data){
+         d3.selectAll(".highlight").remove();
+         var line_highlighted = g_parallel.append("svg:g")
+          .attr("class", "highlight")
+        .selectAll(".h_path")
+          .data(data)
+        .enter().append("svg:path")
+          .attr("class","h_path")
+          .attr("d", path)
+          .attr("style", function(d) {
+                return "stroke:" + colors[d.region] + ";";
+              });
+        
+     }
+     
+      // default : highlight 'Washington'
+     function default_setting(){
+        d3.select(".washington").attr("name","checked").attr("stroke-opacity",1);
+        d3.select("#gourp_button_washington").attr("name","checked").select("rect").style("stroke-width",3);
+        d3.select(".grid_washington").attr("name","checked").style("background",checked);
+     }
+     
+    // reset all the choosing rows and highlighted lines
+     function reset(){
+       d3.selectAll(".list").attr("name","unchecked");
+       d3.selectAll(".l_checkbox").attr("name","unchecked").attr("stroke-opacity",0.01);
+       d3.selectAll(".even").style("background",even);
+       d3.selectAll(".odd").style("background",odd);
+       default_setting(); 
+     }
+     
+     function resetAll(){
+        group_buttion_point = 0;
+        update_data = dataset;  
+        d3.select(".g_parallel").selectAll("g").remove();
+        d3.selectAll(".gourp_button").select("rect").style("stroke-width",.7); 
+        countyParallel(dataset);
+        countyList(dataset);   
+        reset();
+     }
+
+    </script>
+
+ <script>
+ 
+</script>
+
+<!----- END content ------------------>
+       
+
+                      <div id="footer">
+                <div class="region region-footer">
+    <div id="block-block-1" class="block block-block  block-odd block-footer block-count-2">
+  <div class="block-inner">
+
+              
+    <div class="content">
+      <img src="/sites/all/themes/genesis_poc/images/dshs-green.png" />
+<img src="/sites/all/themes/genesis_poc/images/UW-school-of-social.png" />
+<div id="copyright">&copy; 2013 Partners For Our Children | PO Box 359476 | Seattle, WA 98195-9476 | 206 221-3100</div>    </div>
+
+  </div>
+</div>
+  </div>
+         </div>
+ 
+  </div>  
+  </div>
+  </div>
+  
+  <div id="sidebar-second" class="sidebar"  style="background: white;">  
+    <div class="region region-sidebar-second">
+    
+    <div id="block-menu-menu-site-links" class="block block-menu sidebar-section green-links uppercase block-even block-sidebar-second block-count-8">
+<div class="block-inner">
+<div class="content">
+ 
+<ul class="menu">
+<li class="first leaf">
+<a href="/about-us/news" title="">News</a>
+</li>
+<li class="leaf">
+<a href="/about-us/events" title="">Events</a>
+</li>
+<li class="leaf">
+<a href="/about-us/contact" title="">Contact</a>
+</li>
+<li class="leaf">
+<a href="/about-us/partners" title="">Partners</a>
+</li>
+<li class="last leaf">
+<a href="/about-us/employment" title="">Employment</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+ 
+        <div id="block-views-tweets-block" class="block block-views sidebar-section green-links block-odd block-sidebar-second block-count-3">
+            <div class="block-inner">
+            </div>
+        </div>
+    </div>
+</div>
+
+  </div> <!-- /columns -->
+
+  </div>
+  
+</body>
+</html>
